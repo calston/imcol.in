@@ -1,6 +1,7 @@
 FROM nginx:alpine
 
 RUN chmod -R 0777 /var/cache/nginx
+RUN chmod -R 0777 /var/run
 RUN apk update
 ADD https://github.com/gohugoio/hugo/releases/download/v0.40.3/hugo_0.40.3_Linux-64bit.tar.gz /tmp/hugo.tar.gz
 RUN tar -zxvf /tmp/hugo.tar.gz
