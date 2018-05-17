@@ -1,0 +1,30 @@
+baseURL = "https://imcol.in/"
+#languageCode = "en-us"
+title = "I'm Colin"
+theme = "nederburg"
+email = "colin.alston@gmail.com"
+preserveTaxonomyNames = true
+paginate = 5 #frontpage pagination
+
+[params]
+  email = "colin.alston@gmail.com"
+  slogan = "Who's Colin?"
+  description = "Who's Colin?" # meta description
+  author = "Colin Alston"
+  authorLink = "https://imcol.in/"
+  bio = [
+    "Sage and silicon whisperer"
+  ]
+  copyright = [
+    "&copy; 2018 Colin Alston",
+    "Nederburg Hugo Theme by [Appernetic](https://appernetic.io)."
+  ]
+
+  [[params.navlinks]]
+  name = "Home"
+  url = ""
+
+  [params.social]
+  twitter       = "https://twitter.com/colinza"
+  github        = "https://github.com/calston"
+
